@@ -1,0 +1,16 @@
+name: Task Me
+description: Ask a question, report a bug or request a feature for Task Me.
+labels: ["Task Me"]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: What's going on?
+      description: For a bug, tell me what you did, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: iPhone 16 Pro, iOS 26.0
